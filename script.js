@@ -65,17 +65,17 @@ let text = document.getElementsByClassName("card_contact");
 text[0].addEventListener("click", () => {
     navigator.clipboard.writeText(text[0].getAttribute("title")).then(() => {
         console.log('Content copied to clipboard');
-        /* Resolved - text copied to clipboard successfully */
-      },() => {
+    }, () => {
         console.error('Failed to copy');
-        /* Rejected - text failed to copy to the clipboard */
-      });
+    });
 });
+
+
 text[1].addEventListener("click", () => {
     navigator.clipboard.writeText(text[1].getAttribute("title")).then(() => {
         console.log('Content copied to clipboard');
-      },() => {
+    }, () => {
         console.error('Failed to copy');
-      });
+    });
 })
 console.log(text.getAttribute("title"))
