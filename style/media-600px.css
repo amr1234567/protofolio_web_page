@@ -1,0 +1,49 @@
+.nav_bar svg{
+    display: none;
+}
+.nav_bar ul li {
+    width: 40%;
+    margin: 0px;
+}
+.nav_bar ul{
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+aside{
+    height: 8rem;
+}
+
+.about_me_container{
+    flex-direction: column;
+}
+
+.about_me_container>p {
+    width: 100%;
+    text-align: center;
+}
+
+.line {
+    height: 1rem;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.description{
+    width: 100%;
+}
+
+
+.card{
+    width: 40%;
+}
+
+.card_contact{
+    width: 43%;
+    height: 15rem;
+}
+
+.contact{
+    padding-bottom: 10rem;
+    justify-content: center;
+}

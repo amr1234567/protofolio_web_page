@@ -1,0 +1,26 @@
+
+@keyframes profile_animation {
+    0% {
+        border-color: white;
+    }
+
+    17% {
+        border-color: rgb(96, 95, 95);
+    }
+
+    35% {
+        border-color: rgb(152, 134, 134);
+    }
+
+    50% {
+        border-color: rgb(42, 43, 44);
+    }
+
+    80% {
+        b-color: black;
+    }
+
+    100% {
+        border-color: white;
+    }
+}

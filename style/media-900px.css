@@ -1,0 +1,17 @@
+.temp_nav,
+.new_nav_color {
+    padding: 0rem;
+    margin: 0px;
+}
+
+.name{
+    font-size: 2rem;
+}
+
+.nav_bar ul li a svg {
+    margin: 0rem ;
+}
+
+.copyRight{
+    text-align: center;
+}

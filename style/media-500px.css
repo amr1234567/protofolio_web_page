@@ -1,0 +1,22 @@
+aside{
+    flex-direction: column;
+    gap: 1rem;
+    height: 17rem;
+}
+.pic_and_info{
+    justify-content: flex-start;
+}
+
+.nav_bar{
+    position: static;
+}
+
+.nav_bar ul {
+    justify-content: flex-start;
+}
+
+
+.home p, .home h2 {
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
